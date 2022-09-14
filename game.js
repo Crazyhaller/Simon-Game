@@ -13,7 +13,7 @@ $(document).keypress(function() {
     nextSequence();
     started = true;
   }
-});
+})
 
 $(".btn").click(function() {
 
@@ -24,7 +24,7 @@ $(".btn").click(function() {
   animatePress(userChosenColour);
 
   checkAnswer(userClickedPattern.length-1);
-});
+})
 
 function checkAnswer(currentLevel) {
 
